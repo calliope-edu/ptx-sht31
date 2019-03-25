@@ -1,0 +1,17 @@
+{
+    "name": "pxt-sht31",
+    "version": "0.0.1",
+    "description": "I2C temperature and humidity sensor",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "sht31.ts"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/calliope-edu/ptx-sht31"
+    },
+    "public": true
+}
