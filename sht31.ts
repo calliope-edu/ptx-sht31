@@ -4,7 +4,7 @@
  * @author Moritz Heine
  */
 
-//% weight=3 color=#97699c block="sht31"
+//% weight=3 color=#97699c block="SHT31"
 namespace sht31 {
     let ADDRESS = 0x44;
     let temp = 0;
@@ -36,6 +36,7 @@ namespace sht31 {
      */
     //% blockId=readTemp
     //% block="read temp"
+    //% block.loc.de="Temperatur"
     export function readTemp(): number {
         if (!readTempHum()) {
             return 0
@@ -46,8 +47,9 @@ namespace sht31 {
     /**
      * Read humidity
      */
-    //% block="read humidity"
     //% blockId=digitalRead
+    //% block="read humidity"
+    //% block.loc.de="Luftfeuchtigkeit"
     export function readHum(): number {
         if (!readTempHum()) {
             return 0
