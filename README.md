@@ -19,6 +19,9 @@ Raumklima-Überwachung
 Smart Home
 IoT-Projekte
 
+## MakeCode
+Es gibt jeweils einen Block zur Anzeige der Temperatur und der Luftfeuchtigkeit.
+
 
 # ptx-sht31
 
@@ -39,6 +42,9 @@ It is based on the SHT31 sensor chip from Sensirion and communicates via the I²
 * Indoor climate monitoring  
 * Smart home  
 * IoT projects  
+
+## MakeCode
+There is one block each for displaying the temperature and humidity.
 
 ## License
 
